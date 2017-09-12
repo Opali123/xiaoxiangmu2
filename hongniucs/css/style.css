@@ -1,0 +1,65 @@
+*{ padding:0px; margin:0px;}
+.ui-loader{display:none;}
+body{ width:100%; height:100%; position:fixed; top:0px; background:url(../images/bj.jpg) no-repeat; background-size:100% 100%;}
+/*去除蓝色边框*/
+a,button,input,textarea,span,div,em,i,img{-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color: transparent; /* For some Androids */
+ outline: none;
+ -moz-outline-style: none;
+ -webkit-user-select: none;/*用户不可选 中元素的内容*/
+}
+/*加载*/
+
+.page_load{width:100%;height:100%;position:absolute;left:0px;top:0px;z-index:100; background:url(../images/bj.jpg) no-repeat; background-size:100% 100%;}
+.page_load_box{width:80%;position:absolute;left:10%;top:50%;height:140px;margin-top:-70px;}
+.page_load_div1{width:80px;height:40px;position:relative;margin:0px auto;}
+.page_loadc{width:130px;height:40px;}
+.page_span_1{border: 0px #362e58 solid;border-radius: 130px;width: 103px;height: 40px;position: absolute;left: 12px;top: 11px;color:#fff;}
+
+.page_load_span1{position:absolute;left:0px;top;0px;height:4px;background:#f4dd45;width:0px;border-radius:4px;display:none;}
+.page_load_i_1{color:#000;width:100%;text-align:center;font-style:normal;font-size:20px;display:block;margin:0px auto;line-height:40px;color:#fff;}
+.page_load.current{-webkit-animation:load 0.5s ease-out forwards;}
+@-webkit-keyframes load{
+	0%{opacity:1;}
+    99%{opacity:0;}
+    100%{opacity:0;z-index:0;display:none;}
+}
+.num_load{width:100%;position:relative;height:2px;overflow:hidden;background:#4a6dbc;}
+.num_load span{position:absolute;left:0px;top:0px;height:2px;background:#fff;}
+/*首页*/
+.main{ width:100%; height:100%; overflow:hidden;}
+.main .img_1{ width:60%; display:block; position:fixed; left:20%; top:8%;}
+.main .img_2{ width:70%; display:block; position:fixed; left:15%; top:44%;}
+.main .img_3{ width:17%; display:block; position:fixed; left:20%; top:70%;}
+.main .img_4{ width:15%; display:block; position:fixed; left:71%; top:70%;}
+/*选择*/
+.choice{ width:100%; height:100%; }
+.choice .tit{ width:70%; position:fixed; left:15%; top:8%;}
+.choice .tab{ position:fixed; top:46%; width:100%;}
+.choice .tab .win{ width:400%; height:1%; position:relative; left:0px; left:-10%}
+.choice .tab .win img{ display:block; float:left; width:4%; margin-left:3%;}
+.choice .tab2{ position:fixed; top:56%; left:32%; width:40%; overflow:hidden;}
+.choice .tab2 .win{ width:100%; display:block; text-align:center; overflow:hidden; height:1%; margin:auto;}
+.choice .tab2 .win img{ display:block; margin:auto; float:left; height:40px; margin-left:3%; display:none;}
+
+.choice .anniu{ width:40%; position:fixed; top:66%; left:32%;}
+.choice .woshi{ width:30%; position:fixed; bottom:0; right:0;}
+.choice .hua{ width:100%; height:229px; position:fixed; top:20%; background:#000; opacity:0;}
+
+/*解析*/
+.analytical{ width:100%; height:100%; }
+.analytical .tit{ width:70%; position:fixed; left:15%; top:5%;}
+.analytical .img_bei{ width:80%; position:fixed; left:10%; top:15%;}
+.analytical .img_6{ width:52%; position:fixed; left:42%; top:20%;}
+.analytical .img_7{ width:40%; position:fixed; left:30%; top:50%;}
+.analytical p{ position:fixed; width:70%; left:15%; top:58%; color:#FFF; font-size:5vw; line-height:20px;}
+.analytical .woshi{ width:30%; position:fixed; bottom:0; right:0;}
+.analytical .anniu3{ height:35px; position:fixed; top:78%; left:18%;}
+.analytical .anniu4{ height:35px; position:fixed; top:78%; left:48%;}
+
+.bjtu{ width:100%; height:100%;position:fixed; top:0px;}
+.bjtu img{ width:100%; }
+
+.tanc{ width:100%; height:100%; background:rgba(102,102,102,0.8); position:fixed; top:0px; display:none;}
+.tanc img{ width:100%; position:absolute; top:-6%;}
+
